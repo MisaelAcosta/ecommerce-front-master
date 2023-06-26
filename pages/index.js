@@ -4,6 +4,7 @@ import Featured from '@/components/Featured';
 import { Product } from '@/models/Product';
 import NewProducts from '@/components/NewProducts';
 
+
 export default function HomePage({ data, newProducts }) {
   const [message, setMessage] = useState('');
 
